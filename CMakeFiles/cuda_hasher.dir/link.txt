@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared  -o modules/cuda_hasher.hsh CMakeFiles/cuda_hasher.dir/hash/gpu/cuda/cuda_hasher.cpp.o CMakeFiles/cuda_hasher.dir/hash/gpu/cuda/cuda_hasher_generated_cuda_kernel.cu.o  -Wl,-rpath,./ -Wl,-Bstatic -lcudart_static -Wl,-Bdynamic -lpthread -ldl -lrt libhasher.so -lpthread -ldl libcommon.so 

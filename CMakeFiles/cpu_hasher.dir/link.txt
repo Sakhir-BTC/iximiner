@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared  -o modules/cpu_hasher.hsh CMakeFiles/cpu_hasher.dir/hash/cpu/cpu_hasher.cpp.o   -L/usr/lib/gcc/x86_64-linux-gnu/8  -Wl,-rpath,./ libhasher.so hash/cpu/cpu_features/libcpu_features.a libcommon.so -lpthread -ldl 

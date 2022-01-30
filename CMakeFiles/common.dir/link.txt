@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libcommon.so -o libcommon.so CMakeFiles/common.dir/app/arguments.cpp.o CMakeFiles/common.dir/common/common.cpp.o CMakeFiles/common.dir/crypt/sha512.cpp.o CMakeFiles/common.dir/crypt/base64.cpp.o CMakeFiles/common.dir/crypt/random_generator.cpp.o CMakeFiles/common.dir/crypt/hex.cpp.o  -Wl,-rpath,./ 
